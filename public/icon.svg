@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#173B2E" />
+      <stop offset="100%" stop-color="#267A5C" />
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <circle cx="256" cy="220" r="80" fill="url(#sun)" opacity="0.9" />
+  <path d="M 256 110 L 290 200 L 380 200 L 310 250 L 335 340 L 256 285 L 177 340 L 202 250 L 132 200 L 222 200 Z" fill="#FDFBF7" opacity="0.95" />
+  <text x="256" y="420" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" font-weight="900" fill="#F6F4ED" text-anchor="middle" letter-spacing="6">TOCA</text>
+  <text x="256" y="460" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#A7F3D0" text-anchor="middle" letter-spacing="4">BANGLADESH</text>
+</svg>

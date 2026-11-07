@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#173B2E" />
+      <stop offset="100%" stop-color="#267A5C" />
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </radialGradient>
+  </defs>
+  <!-- Full background for Android maskable squircle/circle cropping -->
+  <rect width="512" height="512" fill="url(#grad)" />
+  <!-- Scaled inside safe zone (padding 15%) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <circle cx="256" cy="210" r="75" fill="url(#sun)" opacity="0.9" />
+    <path d="M 256 110 L 290 195 L 375 195 L 305 245 L 330 330 L 256 280 L 182 330 L 207 245 L 137 195 L 222 195 Z" fill="#FDFBF7" opacity="0.95" />
+    <text x="256" y="405" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="900" fill="#F6F4ED" text-anchor="middle" letter-spacing="6">TOCA</text>
+    <text x="256" y="445" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#A7F3D0" text-anchor="middle" letter-spacing="4">BANGLADESH</text>
+  </g>
+</svg>

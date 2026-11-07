@@ -1,0 +1,9 @@
+{
+  "name": "TOCA — Travel & Explore Bangladesh",
+  "description": "Professional Bangladesh travel companion for discovering heritage, planning day-by-day itineraries with BDT budget estimates, interactive maps, and bilingual offline travel guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API",
+    "MAJOR_CAPABILITY_GOOGLE_MAPS_API"
+  ]
+}
